@@ -1,0 +1,98 @@
+
+
+.spotify-loginPage {
+  height: 190px !important;
+}
+
+.wrapper,
+.container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  flex-direction: column !important;
+}
+
+.spotify-loginPage button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  width: 25%;
+  background: transparent;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  transition: 0.3s ease-in-out all;
+}
+
+.spotify-loginPage button:hover {
+  background: rgba(161, 212, 182, 0.385);
+  border: 1px solid #242424;
+}
+
+.spotify-loginPage button span {
+  font-size: 20px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.fa-spotify:before {
+  content: "\f1bc";
+  border-radius: 25px;
+  background: #1ed760;
+  padding: 10px;
+  color: #fff;
+}
+
+/* New */
+
+.wrapper{
+  width: 420px;
+  background: rgba(0, 0, 0, 0.103);
+  backdrop-filter: blur(4px);
+  color: white;
+  justify-content: center;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  
+}
+
+.wrapper h1{
+ font-size: 40px;
+ text-align: center;
+ padding-top: 20px;
+ 
+ 
+}
+.wrapper button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  width: 100%;
+  background: #0f0f0fab;
+  border-radius: 40px;
+  border: 1px solid #cccccc00;
+  transition: 0.3s ease-in-out all;
+}
+
+.wrapper button:hover {
+  background: rgb(0, 0, 0);
+  border: 1px solid rgba(207, 207, 207, 0.502)
+}
+
+.wrapper button span {
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+.login-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('/src/images/florencia-viadana-f74kZNWhfps-unsplash.jpg') no-repeat;
+  background-size: cover;
+}
+
+
