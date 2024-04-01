@@ -12,7 +12,7 @@ const ArtistDetail = () => {
     const fetchArtistDetails = async () => {
       try {
         const accessToken =
-          "BQDziL35soGwXTt4KYJ22lfQDzd7IveoUiie4QlLhxk02wmbmZ4dGSRjNYeGS5F2VKKMYdqqU3E8b4sYDWpLge2X1gcNjvgeXuflYGsm0C1GYOHWnw5jefMlaQ-s4elLCBPlZoYqtH_ZcVz8av_4M3prRlVENrZua7S2eoGk9kLPz2C1wyx2uj-sKqgGsyIaOFexIRj6x4bsRmkD";
+          "BQCGUZdNayLliiq1Zp2p8ONuTD3LEhWkQ5zvjYeFNk-gCkVrOGT50ODrv8bCLGJKTk7TmDE0lM1lYGOEvPDGvpHGZdvsPyfc_SSj9KL0OHhw0m36CpfUlci981_IPGCW-UuyvkdCRGwUxxke67KZ_KHAhbnTP1Xd1syH2--bLQnZ0MIZYA2IS-OTaErnm7L9rvYuY1Pnt91d0TLs";
         const artistResponse = await fetch(
           `https://api.spotify.com/v1/artists/${artistId}`,
           {
