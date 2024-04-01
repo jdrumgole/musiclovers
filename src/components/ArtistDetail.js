@@ -65,16 +65,16 @@ const ArtistDetail = () => {
 
   return (
     <>
-      {/* <nav aria-label="breadcrumb">
+      {<nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <Link to="/artist-search">Search</Link>
+            <Link to="/artist-search#access_token=BQAatvCkWH9t4x8Kb8OXF1hky8HQU41v7Vx6dhy-C_V51u-BskPGmxYIC4OFC1l4kEtyG8ZDlvHvp2gxCyf0chdguC0sJYapmXUZ45EOiM_DvCbLb1cCrbPOpgn8gdrKvc50KR_2WpMELO_qKwGAmcKLfTnzw_2pabmGWnA0KbKhkH3IRr4cxlxVPJlPwFsK3WUMXdKORpH3HR_g&token_type=Bearer&expires_in=3600&state=tg8eyd">Search</Link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">
             {artistInfo.name}
           </li>
         </ol>
-      </nav> */}
+      </nav> }
       <div className="artist-detail">
         <h2>{artistInfo.name}</h2>
         {/* <p>Followers: {artistInfo.followers.total}</p> */}

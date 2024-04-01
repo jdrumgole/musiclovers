@@ -46,7 +46,9 @@
 /* Album list.css */
 
 /* Styles for each artist card */
-
+.breadcrumb{
+  padding: 5px 40px;
+}
 .artist-card {
   border: 1px solid #ccc;
   padding: 10px;
@@ -68,6 +70,13 @@
 
 .artist-detail {
   margin: 50px 10px !important;
+}
+.artist-detail h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.artist-detail h2,h3 {
+  padding: 0px 40px;
 }
 
 /* to make soace between cardss and to create a good looking shape using border-radius */
