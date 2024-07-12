@@ -11,6 +11,7 @@ const ArtistDetail = () => {
   useEffect(() => {
     const fetchArtistDetails = async () => {
       try {
+        {/* ---------------------------------Insert new coin token here  ---------------------------*/}
         const accessToken =
           "BQDLG_vs2nmqXdG3QVMw7SGfvptlUxwTenuk5hiKD__ae0wzdqWOcazvjVvVz1KEkeN2uuj6mdv-otPjid3ZZnG63H7UbQLPkqE41al2gKCj3Mosp75awn-IrjABiWsHDUW2vS2SX2jjh0xbXna3DSgnSabdOe86x1lvTmkssn7S6NM9mNelIgcfWLGs7dTwkI_1K5YsUYLc69nkydqo";
         const artistResponse = await fetch(
@@ -68,6 +69,7 @@ const ArtistDetail = () => {
       {<nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
+            {/* ---------------------------------Insert new coin token here  ---------------------------*/}
             <Link to="/artist-search#access_token=BQDLG_vs2nmqXdG3QVMw7SGfvptlUxwTenuk5hiKD__ae0wzdqWOcazvjVvVz1KEkeN2uuj6mdv-otPjid3ZZnG63H7UbQLPkqE41al2gKCj3Mosp75awn-IrjABiWsHDUW2vS2SX2jjh0xbXna3DSgnSabdOe86x1lvTmkssn7S6NM9mNelIgcfWLGs7dTwkI_1K5YsUYLc69nkydqo&token_type=Bearer&expires_in=3600&state=tg8eyd">Search</Link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">
